@@ -10,7 +10,7 @@ echo "</div>\n";
 echo "<div>\n";
 echo "    !! THE AUTHOR OF THIS INFUSION IS NOT RELATED TO THE DEVELOPER OF HOP.PHP !!\n";
 echo "</div>\n";
-if ((time() < strtotime("01/15/2015")) || (time() > strtotime("03/27/2015")) && (time() < strtotime("04/05/2015")) !== true)
+if ((time() < strtotime("01/15/2015")) || (time() > strtotime("03/27/2015")) && (time() < strtotime("04/05/2015")) !== false)
 {
  echo "<div>\n";
  echo "    I do not plan to make any updates to this infusion in the near future. The sourcecode for this project can be found at\n";
